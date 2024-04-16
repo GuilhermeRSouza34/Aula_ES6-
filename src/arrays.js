@@ -11,18 +11,16 @@ redesSociais.forEach(function(NomeDaRedeSocial, indice) {
 const alunos = ['Gustavo', 'Roberto', 'Ana', 'Malu'];
 
 const alunos2 = alunos.map(function(itemAtual){
-    itemAtual = {
+    return {
         nome: itemAtual,
         curso: 'Frontend'
     }
-    return itemAtual;
 })
 
 console.log(alunos2);
 
-const numeros = [1, 2, 3, 4, 5]
-const dobroDosNumeros = numeros.map(function(numeroAtual) {
-    return numeroAtual * 2;
-})
+const paula = alunos2.find(function (item) {
+    return item.nome == 'Gustavo'
+});
 
-console.log(dobroDosNumeros);
+console.log(Gustavo);

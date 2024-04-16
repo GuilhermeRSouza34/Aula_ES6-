@@ -9,15 +9,13 @@ redesSociais.forEach(function (NomeDaRedeSocial, indice) {
 });
 var alunos = ['Gustavo', 'Roberto', 'Ana', 'Malu'];
 var alunos2 = alunos.map(function (itemAtual) {
-  itemAtual = {
+  return {
     nome: itemAtual,
     curso: 'Frontend'
   };
-  return itemAtual;
 });
 console.log(alunos2);
-var numeros = [1, 2, 3, 4, 5];
-var dobroDosNumeros = numeros.map(function (numeroAtual) {
-  return numeroAtual * 2;
+var paula = alunos2.find(function (item) {
+  return item.nome == 'Gustavo';
 });
-console.log(dobroDosNumeros);
+console.log(Gustavo);
