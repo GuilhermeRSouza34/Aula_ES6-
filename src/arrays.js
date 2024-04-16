@@ -9,10 +9,20 @@ redesSociais.forEach(function(NomeDaRedeSocial, indice) {
 })
 
 const alunos = ['Gustavo', 'Roberto', 'Ana', 'Malu'];
-alunos.map(function(itemAtual){
+
+const alunos2 = alunos.map(function(itemAtual){
     itemAtual = {
         nome: itemAtual,
         curso: 'Frontend'
     }
     return itemAtual;
 })
+
+console.log(alunos2);
+
+const numeros = [1, 2, 3, 4, 5]
+const dobroDosNumeros = numeros.map(function(numeroAtual) {
+    return numeroAtual * 2;
+})
+
+console.log(dobroDosNumeros);
