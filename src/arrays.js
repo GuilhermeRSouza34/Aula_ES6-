@@ -9,3 +9,10 @@ redesSociais.forEach(function(NomeDaRedeSocial, indice) {
 })
 
 const alunos = ['Gustavo', 'Roberto', 'Ana', 'Malu'];
+alunos.map(function(itemAtual){
+    itemAtual = {
+        nome: itemAtual,
+        curso: 'Frontend'
+    }
+    return itemAtual;
+})
