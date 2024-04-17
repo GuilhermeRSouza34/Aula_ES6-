@@ -1,3 +1,4 @@
+//Rest
 function somar() {
     let soma = 0;
 
@@ -22,3 +23,32 @@ function somarComRest(...numeros) {
 }
 
 console.log(somarComRest(10, 20, 30))
+
+
+
+//Spread
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+console.log(...numeros)
+
+const timesDeFutebolSerieA = ['São Paulo', 'Palmeiras', 'Flamengo', 'Corinthians', 'Fluminense', 'Vasco'];
+const timesDeFutebolSerieB = ['Santos', 'Amazonas', 'Brusque', 'Operario-PR', 'Paysandu', 'Ponte Preta'];
+const timesDeFutebol = [...timesDeFutebolSerieA, ...timesDeFutebolSerieB];
+//const timesDeFutebol = [timesDeFutebolSerieA.concat(timesDeFutebolSerieB)];
+
+//timesDeFutebolSerieA.concat(timesDeFutebolSerieB)
+console.log(timesDeFutebol)
+
+const carroDaPaula = {
+    modelo: 'Fusca',
+    ano: 2020,
+    cor: 'Azul'
+}
+
+const carroDaAna = {
+    ...carroDaPaula,
+    ano: 2021,
+    cor: 'Preto'
+}
+
+console.log(carroDaAna);
+
