@@ -52,3 +52,7 @@ const carroDaAna = {
 
 console.log(carroDaAna);
 
+
+//Desestruturação
+const anoDoCarroDaAna = carroDaAna.ano;
+const {ano} = carroDaAna;
