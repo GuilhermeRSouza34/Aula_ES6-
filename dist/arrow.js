@@ -1,6 +1,13 @@
 "use strict";
 
 var minhaFuncao = function minhaFuncao() {
-  console.log("Olá, mundo!");
+  return "Ola Mundo";
 };
-minhaFuncao();
+var retornaUmCarro = function retornaUmCarro() {
+  return {
+    marca: "Ford",
+    modelo: "Mustang"
+  };
+};
+console.log(minhaFuncao());
+console.log(retornaUmCarro());
