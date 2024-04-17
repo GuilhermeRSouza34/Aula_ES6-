@@ -1,5 +1,12 @@
 function somar(a, b) {
-    console.log(arguments)
+    let soma = 0;
+
+    for (let i = 0; i < arguments.length; i++) {
+        soma += arguments[i];
+    }
+
+    //arguments.map
+    //console.log(arguments)
     //return a + b;
 }
 
