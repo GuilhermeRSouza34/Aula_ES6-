@@ -54,5 +54,16 @@ console.log(carroDaAna);
 
 
 //Desestruturação
-const anoDoCarroDaAna = carroDaAna.ano;
-const {ano} = carroDaAna;
+//const anoDoCarroDaAna = carroDaAna.ano;
+const {ano: anoDoCarroDaAna} = carroDaAna;
+const {ano: anoDoCarroDaPaula} = carroDaPaula;
+
+console.log(anoDoCarroDaAna);
+console.log(anoDoCarroDaPaula);
+
+const [item1, item2, item3, ...outrosTimes] = timesDeFutebol;
+
+console.log(item1);
+console.log(item2);
+console.log(item3);
+console.log(outrosTimes);
