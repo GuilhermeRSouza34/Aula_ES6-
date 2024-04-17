@@ -73,6 +73,6 @@ cpfs.forEach(function (valor) {
 //Utilizando o Array como Set para nao colocar itens duplicados
 var array = ['Guilherme', 'Paulo', 'Ana', 'Ana', 'Paula', 'Paulo', 'Carlos', 'Bebeto'];
 var arrayComoSet = new Set([].concat(array));
-var arraySemItensDuplicados = new Set(_toConsumableArray(arrayComoSet));
+var arraySemItensDuplicados = _toConsumableArray(arrayComoSet);
 console.log(arrayComoSet);
 console.log(arraySemItensDuplicados);
