@@ -12,3 +12,13 @@ function somar() {
 }
 
 console.log(somar(10, 20, 30))
+
+function somarComRest(...numeros) {
+    const soma = numeros.reduce((total, numetoAtual) => {
+        total += numetoAtual;
+        return total;
+    }, 0)
+    return soma;
+}
+
+console.log(somarComRest(10, 20, 30))
