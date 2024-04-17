@@ -1,5 +1,3 @@
-const minhaFuncao = () => {
-    console.log("Olá, mundo!");
-}
+const minhaFuncao = () => "Ola Mundo";
 
-minhaFuncao();
+console.log(minhaFuncao());
